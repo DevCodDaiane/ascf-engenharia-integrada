@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="A ASCF Engenharia Integrada oferece soluções completas em engenharia civil. Excelência em projetos estruturais, gestão de obras e consultoria técnica.">
+  <title>ASCF Engenharia Integrada | Soluções em Engenharia Civil</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="logo">
+      <a href="#home">
+        <span>ASCF</span> <br> <span>Engenharia Integrada</span>
+      </a>
+    </div>
+    <nav class="navigation">
+      <ul class="nav-list">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h1>ASCF <br> Engenharia Integrada</h1>
+        <p>Excelência técnica do projeto à execução.</p>
+        <a href="#servicos" class="btn btn-primary">Conheça os nossos serviços</a>
+      </div>
+    </section>
+
+    <section id="sobre" class="about-us">
+      <div class="about-text">
+        <h2>Sobre Nós</h2>
+        <p>
+          Com anos de experiência e um olhar técnico apurado, a ASCF Engenharia Integrada, liderada por Ailton Salvador,
+          entrega soluções completas em engenharia civil com foco em qualidade, segurança e inovação. Atuamos em todas as etapas da obra — do planejamento ao acabamento — com compromisso total com os prazos, normas técnicas e satisfação do cliente.
+        </p>
+        <p>
+          Acreditamos que engenharia vai além de cálculos e concreto: é sobre construir com responsabilidade, transformar espaços
+          e agregar valor à vida das pessoas. Nossa missão é oferecer projetos inteligentes, economicamente viáveis e tecnicamente sólidos.
+        </p>
+      </div>
+      <div class="about-image">
+        <picture>
+          <source srcset="images/projeto-otimizado.webp" type="image">
+          <img src="images/eng-inspecao.webp" alt="Um engenheiro civil inspecionando uma obra de construção" loading="lazy" />
+        </picture>
+      </div>
+    </section>
+
+    <section id="servicos" class="services">
+      <h2 class="section-title">Nossos Serviços</h2>
+      <p class="section-subtitle">Conheça as nossas principais especialidades</p>
+
+      <div class="services-grid">
+        <div class="service-card">
+          <img src="images/proj-estrutural.webp" alt="Exemplo de projeto estrutural, mostrando desenhos técnicos" loading="lazy" />
+          <h3>Projetos Estruturais</h3>
+          <p>Elaboração completa de projetos com precisão técnica e foco em segurança.</p>
+        </div>
+
+        <div class="service-card">
+          <img src="images/gestao.webp" alt="Canteiro de obras sendo gerenciado com equipe técnica" loading="lazy" />
+          <h3>Gestão Técnica de Obras</h3>
+          <p>Coordenação eficiente do início ao fim da obra, com responsabilidade técnica.</p>
+        </div>
+
+        <div class="service-card">
+          <img src="images/consultoria 4.webp" alt="Profissionais de engenharia discutindo planos em uma mesa" loading="lazy" />
+          <h3>Consultoria Técnica</h3>
+          <p>Análise técnica e soluções práticas para diferentes demandas de engenharia.</p>
+        </div>
+
+        <div class="service-card">
+          <img src="images/laudo.webp" alt="Laudo técnico sendo preparado em formato digital ou impresso" loading="lazy" />
+          <h3>Laudos e Perícias</h3>
+          <p>Emissão de documentos técnicos com base nas normas e legislações vigentes.</p>
+        </div>
+
+        <div class="service-card">
+          <img src="images/projeto3.webp" alt="Processo de reforma de uma estrutura de concreto" loading="lazy" />
+          <h3>Reformas Estruturais</h3>
+          <p>Execução de reformas com reforço estrutural, planejamento e segurança.</p>
+        </div>
+
+        <div class="service-card">
+          <img src="images/regularizacao.webp" alt="Documentos de aprovação de projetos com carimbos oficiais" loading="lazy" />
+          <h3>Regularização de Projetos</h3>
+          <p>Legalização e aprovação junto aos órgãos públicos competentes.</p>
+        </div>
+      </div>
+
+      <div class="cta-services">
+        <a href="#contato" class="btn btn-secondary">Solicite seu orçamento</a>
+      </div>
+    </section>
+
+    <section id="contato" class="contact">
+      <h2 class="section-title">Entre em Contato</h2>
+      <p>Preencha o formulário abaixo ou utilize nossos canais diretos para solicitar um orçamento ou tirar suas dúvidas.</p>
+
+      <form name="orcamento" method="post" data-netlify="true" class="contact-form">
+        <input type="text" name="name" placeholder="Digite seu nome" required>
+        <input type="email" name="email" placeholder="E-mail " required>
+        <textarea name="message" placeholder="Digite sua mensagem" required></textarea>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
+    </section>
+
+  </main>
+
+<footer class="footer">
+    <div class="footer-content">
+        <div class="footer-info">
+            <p>
+                © 2025 ASCF Engenharia Integrada | Todos os direitos reservados |
+                <a href="https://www.daisystems.com.br" target="_blank" rel="noopener noreferrer">
+                    Desenvolvido por Dai Systems
+                </a>
+                | Disponível para projetos web.
+            </p>
+        </div>
+    </div>
+</footer>
+  <a href="https://api.whatsapp.com/send?phone=5521970029610&text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20serviços%20da%20ASCF%20Engenharia." target="_blank" class="whatsapp-btn" aria-label="Fale conosco pelo WhatsApp">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="Ícone do WhatsApp">
+  </a>
+</body>
+
+</html>
